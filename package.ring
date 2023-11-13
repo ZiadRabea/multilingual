@@ -23,22 +23,20 @@ aPackageInfo = [
 	:files = 	[
 		"lib.ring",
 		"main.ring",
-		"translator.exe",
-		"source_code.ring"
 	],
 	:ringfolderfiles = 	[
+		"translator.exe",
+		"source_code.ring",
 		"bin/load/arabic.ring",
 		"bin/load/english.ring",
 		"bin/load/french.ring",
 		"bin/load/japaneses.ring",
 		"bin/load/turkish.ring",
 		"documents/json/arabic.json",
-		"translator.exe",
 		"documents/json/English.json",
 		"documents/json/french.json",
 		"documents/json/Japanese.json",
 		"documents/json/turkish.json",
-		"source_code.ring",
 	],
 	:windowsfiles = 	[
 
