@@ -33,12 +33,10 @@ aPackageInfo = [
 		"bin/load/japaneses.ring",
 		"bin/load/turkish.ring",
 		"documents/json/arabic.json",
-		"translator.exe",
 		"documents/json/English.json",
 		"documents/json/french.json",
 		"documents/json/Japanese.json",
-		"documents/json/turkish.json",
-		"source_code.ring",
+		"documents/json/turkish.json"
 	],
 	:windowsfiles = 	[
 
