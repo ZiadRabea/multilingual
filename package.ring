@@ -37,6 +37,6 @@ aPackageInfo = [
 		"documents/json/french.json",
 		"documents/json/Japanese.json",
 		"documents/json/turkish.json"
-	]
+	],
 	:run = "ring main.ring",
 ]
