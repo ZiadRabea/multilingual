@@ -1,0 +1,19 @@
+{"keywords":
+    [
+        {
+            "see": "see",
+            "and": "and",
+            "or": "or",
+            "if": "if",
+            "elseif": "elseif",
+            "else": "else",
+            "for": "for",
+            "to": "to",
+            "in": "in",
+            "func": "func",
+            "return": "return",
+            "end": "end",
+            "while": "while"
+        }
+    ]
+}

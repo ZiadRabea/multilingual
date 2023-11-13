@@ -1,0 +1,13 @@
+ChangeRingKeyword see yaz
+ChangeRingKeyword and ve
+ChangeRingKeyword or veya
+ChangeRingKeyword if eğer
+ChangeRingKeyword elseif yoksa_eğer
+ChangeRingKeyword else başka
+ChangeRingKeyword for itibaren
+ChangeRingKeyword to ila
+ChangeRingKeyword in içinde
+ChangeRingKeyword func işlev
+ChangeRingKeyword return dönüş  
+ChangeRingKeyword end  son
+ChangeRingKeyword while sırasında

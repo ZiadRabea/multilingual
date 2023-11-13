@@ -1,0 +1,13 @@
+ChangeRingKeyword see voir
+ChangeRingKeyword and et
+ChangeRingKeyword or ou
+ChangeRingKeyword if si
+ChangeRingKeyword elseif sinon
+ChangeRingKeyword else autre
+ChangeRingKeyword for pour
+ChangeRingKeyword to à
+ChangeRingKeyword in dans
+ChangeRingKeyword func fonction
+ChangeRingKeyword return retour 
+ChangeRingKeyword  end  fin
+ChangeRingKeyword while alors_que

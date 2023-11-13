@@ -1,0 +1,19 @@
+{"keywords":
+    [
+        {
+            "see": "yaz",
+            "and": "ve",
+            "or": "veya",
+            "if": "eğer",
+            "elseif": "yoksa_eğer",
+            "else": "başka",
+            "for": "itibaren",
+            "to": "ila",
+            "in": "içinde",
+            "func": "işlev",
+            "return": "dönüş",
+            "end": "son",
+            "while": "sırasında"
+        }
+    ]
+}

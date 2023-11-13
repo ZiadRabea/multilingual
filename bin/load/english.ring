@@ -1,0 +1,13 @@
+ChangeRingKeyword see see
+ChangeRingKeyword and and
+ChangeRingKeyword or or
+ChangeRingKeyword if if
+ChangeRingKeyword elseif elseif
+ChangeRingKeyword else else
+ChangeRingKeyword for for
+ChangeRingKeyword to to
+ChangeRingKeyword in in
+ChangeRingKeyword func func
+ChangeRingKeyword return return 
+ChangeRingKeyword  end  end
+ChangeRingKeyword while while

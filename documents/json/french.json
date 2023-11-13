@@ -1,0 +1,19 @@
+{"keywords":
+    [
+        {
+            "see": "voir",
+            "and": "et",
+            "or": "ou",
+            "if": "si",
+            "elseif": "sinon",
+            "else": "autre",
+            "for": "pour",
+            "to": "à",
+            "in": "dans",
+            "func": "fonction",
+            "return": "retour",
+            "end": "fin",
+            "while": "alors_que"
+        }
+    ]
+}

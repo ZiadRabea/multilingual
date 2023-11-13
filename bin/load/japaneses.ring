@@ -1,0 +1,13 @@
+ChangeRingKeyword see 書く
+ChangeRingKeyword and そして
+ChangeRingKeyword or または
+ChangeRingKeyword if もし
+ChangeRingKeyword elseif それ以外の場合
+ChangeRingKeyword else それ以外
+ChangeRingKeyword for のために
+ChangeRingKeyword to に
+ChangeRingKeyword in で
+ChangeRingKeyword func 関数
+ChangeRingKeyword return 戻る 
+ChangeRingKeyword  end  終わり
+ChangeRingKeyword while その間
