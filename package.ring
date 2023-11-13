@@ -24,7 +24,7 @@ aPackageInfo = [
 		"lib.ring",
 		"main.ring",
 		"translator.exe",
-		"source_code.ring",
+		"source_code.ring"
 	],
 	:ringfolderfiles = 	[
 		"bin/load/arabic.ring",
