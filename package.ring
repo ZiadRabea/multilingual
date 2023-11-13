@@ -40,4 +40,3 @@ aPackageInfo = [
 	]
 	:run = "ring main.ring",
 ]
-:run = "ring main.ring"
