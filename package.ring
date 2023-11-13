@@ -15,8 +15,8 @@ aPackageInfo = [
 	],
 	:libs = 	[
 		[
-			:name = "jsonlib",
-			:version = "1.0.5",
+			:name = "",
+			:version = "",
 			:providerusername = ""
 		]
 	],
@@ -33,10 +33,59 @@ aPackageInfo = [
 		"bin/load/japaneses.ring",
 		"bin/load/turkish.ring",
 		"documents/json/arabic.json",
+		"translator.exe",
 		"documents/json/English.json",
 		"documents/json/french.json",
 		"documents/json/Japanese.json",
-		"documents/json/turkish.json"
+		"documents/json/turkish.json",
+		"source_code.ring",
+	],
+	:windowsfiles = 	[
+
+	],
+	:linuxfiles = 	[
+
+	],
+	:ubuntufiles = 	[
+
+	],
+	:fedorafiles = 	[
+
+	],
+	:macosfiles = 	[
+
+	],
+	:windowsringfolderfiles = 	[
+
+	],
+	:linuxringfolderfiles = 	[
+
+	],
+	:ubunturingfolderfiles = 	[
+
+	],
+	:fedoraringfolderfiles = 	[
+
+	],
+	:macosringfolderfiles = 	[
+
 	],
 	:run = "ring main.ring",
+	:windowsrun = "",
+	:linuxrun = "",
+	:macosrun = "",
+	:ubunturun = "",
+	:fedorarun = "",
+	:setup = "",
+	:windowssetup = "",
+	:linuxsetup = "",
+	:macossetup = "",
+	:ubuntusetup = "",
+	:fedorasetup = "",
+	:remove = "",
+	:windowsremove = "",
+	:linuxremove = "",
+	:macosremove = "",
+	:ubunturemove = "",
+	:fedoraremove = ""
 ]
