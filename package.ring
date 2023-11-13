@@ -70,7 +70,7 @@ aPackageInfo = [
 	:macosringfolderfiles = 	[
 
 	],
-	:run = "ring main.ring",
+	//:run = "ring main.ring",
 	:windowsrun = "",
 	:linuxrun = "",
 	:macosrun = "",
