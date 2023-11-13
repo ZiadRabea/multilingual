@@ -11,6 +11,6 @@ func main
 	? "See the folder : ring/libraries/multilingual"
 	? copy("=",C_LINESIZE)
 	cDir = currentdir()
-	system("ring source_code.ring")
+	system("translator.exe")
 	chdir(cDir)
 end
