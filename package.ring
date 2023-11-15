@@ -22,7 +22,7 @@ aPackageInfo = [
 	],
 	:files = 	[
 		"lib.ring",
-		"main.ring",
+		"main.ring"
 	],
 	:ringfolderfiles = 	[
 		"translator.exe",
