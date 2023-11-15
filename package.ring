@@ -1,6 +1,6 @@
 aPackageInfo = [
 	:name = "The multilingual Package",
-	:description = Multilingual package for breaking the language barriers.",
+	:description = "Multilingual package for breaking the language barriers.",
 	:folder = "multilingual",
 	:developer = "Ziad Rabea",
 	:email = "zidr2005@gmail.com",
