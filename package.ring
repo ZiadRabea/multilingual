@@ -15,29 +15,30 @@ aPackageInfo = [
 	],
 	:libs = 	[
 		[
-			:name = "jsonlib",
-			:version = "1.0.11",
+			:name = "",
+			:version = "",
 			:providerusername = ""
 		]
 	],
 	:files = 	[
+		"lib.ring",
 		"main.ring",
-		"translator.exe",
+		"ring_translator.exe",
 		"source_code.ring"
 	],
 	:ringfolderfiles = 	[
-		"translator.exe",
-		"source_code.ring",
 		"bin/load/arabic.ring",
 		"bin/load/english.ring",
 		"bin/load/french.ring",
 		"bin/load/japaneses.ring",
 		"bin/load/turkish.ring",
 		"documents/json/arabic.json",
+		"ring_translator.exe",
 		"documents/json/English.json",
 		"documents/json/french.json",
 		"documents/json/Japanese.json",
-		"documents/json/turkish.json"
+		"documents/json/turkish.json",
+		"source_code.ring",
 	],
 	:windowsfiles = 	[
 
