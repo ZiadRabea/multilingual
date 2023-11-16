@@ -21,7 +21,6 @@ aPackageInfo = [
 		]
 	],
 	:files = 	[
-		"lib.ring",
 		"main.ring",
 		"ring_translator.exe",
 		"source_code.ring"
