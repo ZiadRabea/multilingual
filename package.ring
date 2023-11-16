@@ -38,7 +38,7 @@ aPackageInfo = [
 		"documents/json/french.json",
 		"documents/json/Japanese.json",
 		"documents/json/turkish.json",
-		"source_code.ring",
+		"source_code.ring"
 	],
 	:windowsfiles = 	[
 
