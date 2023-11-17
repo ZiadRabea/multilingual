@@ -29,7 +29,7 @@ aPackageInfo = [
 		"bin/load/arabic.ring",
 		"bin/load/english.ring",
 		"bin/load/french.ring",
-		"bin/load/japaneses.ring",
+		"bin/load/japanese.ring",
 		"bin/load/turkish.ring",
 		"documents/json/arabic.json",
 		"ring_translator.exe",
