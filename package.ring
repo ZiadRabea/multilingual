@@ -15,8 +15,8 @@ aPackageInfo = [
 	],
 	:libs = 	[
 		[
-			:name = "jsonlib",
-			:version = "1.0.11",
+			:name = "",
+			:version = "",
 			:providerusername = ""
 		]
 	],
