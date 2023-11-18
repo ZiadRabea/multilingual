@@ -70,11 +70,11 @@ class Translate
 	if not generate
 	    generate_right_dict(lang)
 	end	
-	see word[len(word)] = nl 
-	see nl
-	see word +nl
+	word = substr(word, "'", "")
+	word = substr(word, "(", "")	
+	word = substr(word, ")", "")
+	word = substr(word, '"', "")
 	word = trim(word)
-	word = substr(word, nl, "")
 	//see word + nl	
 	if magic_dict[word]
             code += magic_dict[word]
@@ -94,13 +94,12 @@ class Translate
 	    if self.current_char != ""
 		# see "Hello world"
 		if not is_string 	   
-		   word += self.current_char
+		word += self.current_char
 		   if self.current_char = "'" or self.current_char = '"'
 		      code += self.current_char
 		      is_string = True
 		   end		
 		   if self.current_char = " " or self.current_char = nl or self.current_char = "(" or self.current_char = ")"
-			word = substr(word, word[len(word)], "")		
 		       translate(lang)
 		       code += self.current_char
 		       word = ""
