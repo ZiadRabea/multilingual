@@ -75,11 +75,12 @@ class Translate
 	word = substr(word, ")", "")
 	word = substr(word, '"', "")
 	word = substr(word, nl, "")
+	word = substr(word, char(13), "")
 	word = trim(word)
-	//see word + nl
-	//see word = "see"
-	//see nl
-	//see word + nl	
+	see word + nl
+	see word = "see"
+	see nl
+	//see strcmp(word, "see")
 	if magic_dict[word]
             code += magic_dict[word]
 	    //see magic_dict[word] + nl
