@@ -12,6 +12,5 @@ ChangeRingKeyword return dönüş
 ChangeRingKeyword end  son
 ChangeRingKeyword while sırasında
 changeRingkeyword new yeni
-changeRingkeyword list liste
 changeRingkeyword class sınıf
 changeRingkeyword load yük
