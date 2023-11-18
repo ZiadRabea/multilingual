@@ -3,24 +3,28 @@
 ###############
 
 load "jsonlib.ring"
+//load "tokenslib.ring"
 
 ###############
 # Cosnts & vars
 ###############
-
 generate = False
 magic_dict = []
-is_stirng = False
-quotes_count = 0
+is_string = False
 word = ""
 code = ""
-
+cText = ""
 see "What is your current language ? (English, Arabic, Turkish, Japanese, French) :" Give language
 see "what language do you want to translate your code to? (English, Arabic, Turkish, Japanese, French) : " Give preferred_language
 see "Code path : " Give file
 
 try
     cText = read(file)
+    //see cText
+    //oTokens = new RingTokens {
+    //    fromString(cText)
+    //    PrintTokens()
+    //} 
 catch
     see "invalid file path :("
 done
@@ -65,18 +69,19 @@ class Translate
     func translate(lang)
 	if not generate
 	    generate_right_dict(lang)
-	end
-	word = substr(word, "'", "")
-	word = substr(word, "(", "")	
-	word = substr(word, ")", "")
-	word = substr(word, '"', "")
+	end	
+	see word[len(word)] = nl 
+	see nl
+	see word +nl
 	word = trim(word)
+	word = substr(word, nl, "")
+	//see word + nl	
 	if magic_dict[word]
             code += magic_dict[word]
-	    # see magic_dict[word]
+	    //see magic_dict[word] + nl
         else
             code += word
-	    # see word + nl
+	    //see word + nl
 	end
 	# see code
     end
@@ -88,36 +93,31 @@ class Translate
 	    # see self.current_char = ""
 	    if self.current_char != ""
 		# see "Hello world"
-		if self.current_char = "'" or self.current_char = '"'
-		   code += '"'
-		   quotes_count ++
-		end
-		
-		if quotes_count % 2 != 0
-		   is_stirng = True
-		else 
-		   is_string = False
-		end
-
-		if not is_string
-		   word += self.current_char		
+		if not is_string 	   
+		   word += self.current_char
+		   if self.current_char = "'" or self.current_char = '"'
+		      code += self.current_char
+		      is_string = True
+		   end		
 		   if self.current_char = " " or self.current_char = nl or self.current_char = "(" or self.current_char = ")"
+			word = substr(word, word[len(word)], "")		
 		       translate(lang)
 		       code += self.current_char
 		       word = ""
 		   end 
 		else
-    		    if self.current_char != '"' and self.current_char != "'" and self.current_char != ""
-		       code += self.current_char
+		    code += self.current_char
+		    if self.current_char = "'" or self.current_char = '"'
+			is_string = False
 		    end			
 		end 
 
 		next_char()
 	    else
 		translate(lang)
-		write("transalted_code.ring", code)
+		write("translated_code.ring", "loadsyntax " + lang +".ring" + nl + code)
 		break
 	    end
-	end 
+	end
     end   
 end
