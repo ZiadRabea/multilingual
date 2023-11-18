@@ -12,6 +12,5 @@ ChangeRingKeyword return return
 ChangeRingKeyword  end  end
 ChangeRingKeyword while while
 changeRingkeyword new new
-changeRingkeyword list list
 changeRingkeyword class class
 changeRingkeyword load load

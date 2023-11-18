@@ -12,6 +12,5 @@ ChangeRingKeyword return retour
 ChangeRingKeyword  end  fin
 ChangeRingKeyword while alors_que
 changeRingkeyword new nouvelle
-changeRingkeyword list liste
 changeRingkeyword class classe
 changeRingkeyword load charger

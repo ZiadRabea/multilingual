@@ -15,7 +15,6 @@
             "end": "end",
             "while": "while",
             "new": "new",
-            "list": "list",
             "class": "class",
             "load" : "load"
         }

@@ -12,6 +12,5 @@ changeRingkeyword return ارجاع
 changeRingkeyword end نهاية
 changeRingkeyword while بينما
 changeRingkeyword new جديد
-changeRingkeyword list قائمة
 changeRingkeyword class فئة
 changeRingkeyword load استدعاء

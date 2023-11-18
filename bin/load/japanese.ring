@@ -12,6 +12,5 @@ ChangeRingKeyword return 戻る
 ChangeRingKeyword  end  終わり
 ChangeRingKeyword while その間
 changeRingkeyword new 新しい
-changeRingkeyword list リスト
 changeRingkeyword class クラス
 changeRingkeyword load 負荷
