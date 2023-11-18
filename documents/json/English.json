@@ -13,7 +13,11 @@
             "func": "func",
             "return": "return",
             "end": "end",
-            "while": "while"
+            "while": "while",
+            "new": "new",
+            "list": "list",
+            "class": "class",
+            "load" : "load"
         }
     ]
 }

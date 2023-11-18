@@ -11,7 +11,7 @@ changeRingkeyword func دالة
 changeRingkeyword return ارجاع
 changeRingkeyword end نهاية
 changeRingkeyword while بينما
-changeRingkeyword new تعريف
+changeRingkeyword new جديد
 changeRingkeyword list قائمة
 changeRingkeyword class فئة
 changeRingkeyword load استدعاء
