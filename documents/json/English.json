@@ -16,7 +16,14 @@
             "while": "while",
             "new": "new",
             "class": "class",
-            "load" : "load"
+            "load" : "load",
+            "give" : "give",
+            "try": "try",
+            "catch": "catch",
+            "done": "done",
+            "not": "not",
+            "break" : "break",
+            "continue": "continue"
         }
     ]
 }

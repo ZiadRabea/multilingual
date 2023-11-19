@@ -14,3 +14,10 @@ ChangeRingKeyword while alors_que
 changeRingkeyword new nouvelle
 changeRingkeyword class classe
 changeRingkeyword load charger
+changeRingkeyword give recevoir
+changeRingkeyword try essayer
+changeRingkeyword catch sauf
+changeRingkeyword done fait
+ChangeRingKeyword not pas
+ChangeRingKeyword break arrêt
+ChangeRingKeyword continue continuer

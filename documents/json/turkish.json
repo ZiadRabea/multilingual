@@ -16,7 +16,14 @@
             "while": "sırasında",
             "new": "yeni",
             "class": "sınıf",
-            "load" : "yük"
+            "load" : "yük",
+            "give" : "almak",
+            "try": "denemek",
+            "catch": "hariç",
+            "done": "tamam",
+            "not": "olumsuz",
+            "break" : "durmak",
+            "continue": "devam"
         }
     ]
 }

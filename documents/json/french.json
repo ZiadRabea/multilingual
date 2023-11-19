@@ -16,7 +16,14 @@
             "while": "alors_que",
             "new": "nouvelle",
             "class": "classe",
-            "load" : "charger"
+            "load" : "charger",
+            "give": "recevoir",
+            "try": "essayer",
+            "catch": "sauf",
+            "done": "fait",
+            "not": "pas",
+            "break" : "arrêt",
+            "continue": "continuer"
         }
     ]
 }

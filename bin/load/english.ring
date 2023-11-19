@@ -14,3 +14,10 @@ ChangeRingKeyword while while
 changeRingkeyword new new
 changeRingkeyword class class
 changeRingkeyword load load
+changeRingkeyword give give
+changeRingkeyword try try
+changeRingkeyword catch catch
+changeRingkeyword done done
+ChangeRingKeyword not not
+ChangeRingKeyword break break
+ChangeRingKeyword continue continue

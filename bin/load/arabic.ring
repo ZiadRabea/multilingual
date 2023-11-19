@@ -14,3 +14,10 @@ changeRingkeyword while بينما
 changeRingkeyword new جديد
 changeRingkeyword class فئة
 changeRingkeyword load استدعاء
+changeRingkeyword give استقبل
+changeRingkeyword try حاول
+changeRingkeyword catch عدى
+changeRingkeyword done تم
+ChangeRingKeyword not ليس
+ChangeRingKeyword break توقف
+ChangeRingKeyword continue استمر

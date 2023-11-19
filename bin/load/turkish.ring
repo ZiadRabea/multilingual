@@ -14,3 +14,10 @@ ChangeRingKeyword while sırasında
 changeRingkeyword new yeni
 changeRingkeyword class sınıf
 changeRingkeyword load yük
+changeRingkeyword give almak
+changeRingkeyword try denemek
+changeRingkeyword catch hariç
+changeRingkeyword done tamam
+ChangeRingKeyword not olumsuz
+ChangeRingKeyword break durmak
+ChangeRingKeyword continue devam

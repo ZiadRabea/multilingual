@@ -14,3 +14,10 @@ ChangeRingKeyword while その間
 changeRingkeyword new 新しい
 changeRingkeyword class クラス
 changeRingkeyword load 負荷
+changeRingkeyword give 受け取る
+changeRingkeyword try 試す
+changeRingkeyword catch を除外する
+changeRingkeyword done 終わり
+ChangeRingKeyword not ない
+ChangeRingKeyword break 停止
+ChangeRingKeyword continue 続く
