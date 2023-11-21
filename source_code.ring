@@ -1,13 +1,13 @@
-###############
-# Imports 
-###############
+//////////////////////////////
+// Imports 
+//////////////////////////////
 
 load "jsonlib.ring"
 //load "tokenslib.ring"
 
-###############
-# Cosnts & vars
-###############
+//////////////////////////////
+// Cosnts & vars
+//////////////////////////////
 generate = False
 magic_dict = []
 is_string = False
@@ -30,7 +30,7 @@ catch
 done
 
 cKeywords = JSON2List(read(exefolder() + "../documents/json/"+language+".json"))["keywords"][1]
-#see keywords
+//see keywords
 
 oTest = New Translate(cText)
 
@@ -38,31 +38,31 @@ oTest{
 cRead(preferred_language)
 }
 
-#############
-# Main Code
-#############
+//////////////////////////
+// Main Code
+//////////////////////////
 
 class Translate
     self.text self.idx = 0 self.current_char = ""
     func init(text) self.text=text  next_char()
-    # see self.text + nl + self.idx + nl + self.current_char
+    // see self.text + nl + self.idx + nl + self.current_char
     func next_char()
 	idx++
 	if idx <= len(text)
 	    current_char = text[idx]
 	else
 	    self.current_char = ""
-	    # code = ""
+	    // code = ""
 	ok
     end
 
     func generate_right_dict(lang)
 	cTrans = JSON2List(read(exefolder()+"../documents/json/"+lang+".json"))["keywords"][1]
 	for i in cKeywords
-	    # see i[1]
+	    // see i[1]
 	    magic_dict[cKeywords[i[1]]] = cTrans[i[1]]
 	end
-	# see magic_dict	
+	// see magic_dict	
 	generate = True
     end
 
@@ -77,9 +77,9 @@ class Translate
 	word = substr(word, nl, "")
 	word = substr(word, char(13), "")
 	word = trim(word)
-	see word + nl
-	see word = "see"
-	see nl
+	//see word + nl
+	//see word = "see"
+	//see nl
 	//see strcmp(word, "see")
 	if magic_dict[word]
             code += magic_dict[word]
@@ -88,16 +88,16 @@ class Translate
             code += word
 	    //see word + nl
 	end
-	# see code
+	// see code
     end
     func cRead(lang)
-	# see self.current_char != ""
-	# see '"'
-	# see "'"
+	// see self.current_char != ""
+	// see '"'
+	// see "'"
 	while 1
-	    # see self.current_char = ""
+	    // see self.current_char = ""
 	    if self.current_char != ""
-		# see "Hello world"
+		// see "Hello world"
 		if not is_string 	   
 		word += self.current_char
 		   if self.current_char = "'" or self.current_char = '"'
@@ -120,6 +120,8 @@ class Translate
 	    else
 		translate(lang)
 		write("translated_code.ring", "loadsyntax " + lang +".ring" + nl + code)
+		write("translated_code/ringsyntax.ring", read(exefolder()+"../bin/load/"+lang+".ring")) 
+		write("translated_code/output.ring", code)
 		break
 	    end
 	end
