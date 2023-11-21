@@ -122,7 +122,7 @@ class Translate
 		write("translated_code.ring", "loadsyntax " + lang +".ring" + nl + code)
 		write("translated_code/ringsyntax.ring", read(exefolder()+"../bin/load/"+lang+".ring")) 
 		write("translated_code/output.ring", code)
-		break
+		return code
 	    end
 	end
     end   
